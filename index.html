@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A small, testable browser Snake game." />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header>
+        <div>
+          <p class="eyebrow">Classic arcade</p>
+          <h1>Snake</h1>
+        </div>
+        <p class="score" aria-live="polite">Score <strong id="score">0</strong></p>
+      </header>
+      <canvas id="board" width="400" height="400" aria-label="Snake game board"></canvas>
+      <p id="status" class="status">Use arrow keys or WASD to begin.</p>
+      <button id="restart" type="button">Restart game</button>
+    </main>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
