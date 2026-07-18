@@ -25,10 +25,6 @@ Open <http://localhost:4173> and use the arrow keys or WASD.
 
 ## Testing
 
-Run tests with:
-
-```bash
-npm test
-```
+Run tests with the command `npm test`.
 
 MIT licensed.
