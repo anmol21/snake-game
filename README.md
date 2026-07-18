@@ -23,4 +23,8 @@ Open <http://localhost:4173> and use the arrow keys or WASD.
 - Fast deterministic tests with Node's built-in test runner.
 - Small enough to understand quickly, but complete enough for meaningful code changes.
 
+## Testing
+
+Run tests with the command `npm test`.
+
 MIT licensed.
